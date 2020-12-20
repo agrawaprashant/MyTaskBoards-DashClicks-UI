@@ -1,0 +1,207 @@
+.UserBoard {
+  /* border: 1px solid #ccc; */
+  height: 100%;
+  width: 272px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2), -1px -1px 3px rgba(0, 0, 0, 0.2); */
+}
+
+.UserBoardHeader {
+  background-color: #026aa7;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Pacifico", cursive;
+}
+
+.UserDeleteBtn {
+  border: none;
+  background: none;
+  color: #baffc9;
+  padding: 0;
+  margin-left: auto;
+  cursor: pointer;
+  outline: none;
+}
+
+.UserDeleteBtn:hover {
+  color: #d9534f;
+}
+
+.UserBoardHeader h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.TaskList {
+  /* padding: 10px;
+  overflow-y: auto;
+  max-height: 250px;
+  min-height: 250px; */
+}
+
+.UserBoardFooter {
+  margin-top: auto;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+  /* border-top: 1px solid #ccc; */
+  padding: 10px;
+  background-color: #026aa7;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.UserBoardFooter button {
+  border: none;
+  background: none;
+  /* background-color: #ccc; */
+  padding: 10px;
+  border-radius: 50%;
+  color: #444;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3), -1px -1px 3px rgba(0, 0, 0, 0.3);
+  outline: none;
+  transition: 0.2s ease-out;
+  background-color: #baffc9;
+}
+.UserBoardFooter button:hover {
+  transform: scale(1.1);
+}
+
+.AddTaskModal {
+  width: 300px;
+  text-align: center;
+}
+
+.AddTaskModal p {
+  line-height: 1;
+}
+
+.AddTaskModalHeader {
+  padding: 15px;
+  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #ccc;
+  color: #444;
+}
+
+.AddTaskModalBody {
+  padding: 10px;
+  height: 150px;
+}
+
+.AddTaskModalBody p {
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+.AddTaskControls {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AddTaskControls input {
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.AddTaskControls button {
+  margin-top: 1rem;
+  border: 1px solid #5cb85c;
+  background: none;
+  /* background-color: #5cb85c; */
+  color: #555;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.1s ease-out;
+  outline: none;
+}
+
+.AddTaskControls button:hover {
+  background: #5cb85c;
+  color: #fff;
+}
+
+.DeleteUserConfirmControls {
+  margin-top: 3rem;
+}
+
+.DeleteUserConfirmControls button {
+  background: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  /* color: #444; */
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: 0.1s ease-out;
+  outline: none;
+}
+
+.ConfirmBtn {
+  border: 1px solid #d9534f;
+  color: #d9534f;
+}
+
+.CancelBtn {
+  border: 1px solid #333;
+  color: #333;
+}
+
+.ConfirmBtn:hover {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.CancelBtn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.EditBoardTitle {
+  display: flex;
+}
+
+.EditBoardTitle input {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.EditBoardTitle button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #ccc;
+  outline: none;
+  background: none;
+  /* font-size: 14px; */
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.EditBoardTitle button:hover {
+  color: #333;
+}

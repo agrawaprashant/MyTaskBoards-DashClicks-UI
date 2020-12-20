@@ -1,0 +1,22 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  background: #026aa7;
+  margin-bottom: 2rem;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  font-family: "Pacifico", cursive;
+}
+.AddUserButtonArea {
+  margin-left: auto;
+}
+
+.UserBoardsArea {
+}

@@ -1,0 +1,6 @@
+.UserBoardsContainer {
+  margin-top: 10px;
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}

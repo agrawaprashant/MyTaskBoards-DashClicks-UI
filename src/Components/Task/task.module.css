@@ -1,0 +1,127 @@
+.Task {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #444;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  text-align: start;
+  transition: 0.1s ease-out;
+}
+
+.Task:hover {
+  transform: scale(1.02);
+}
+
+.TaskDragging {
+  background-color: lightgreen;
+}
+
+.EditBtn {
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #ccc;
+  outline: none;
+  background: none;
+  /* font-size: 14px; */
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.EditBtn:hover {
+  color: #333;
+}
+
+.EditTaskField {
+  display: flex;
+}
+
+.EditTaskField input {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.EditTaskField button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #ccc;
+  outline: none;
+  background: none;
+  /* font-size: 14px; */
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.EditTaskField button:hover {
+  color: #333;
+}
+
+.DeleteTaskModalHeader {
+  padding: 15px;
+  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #ccc;
+  color: #444;
+}
+
+.DeleteTaskModalBody {
+  padding: 10px;
+  height: 120px;
+}
+
+.DeleteTaskModalBody p {
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #444;
+}
+
+.DeleteTaskConfirmControls {
+  margin-top: 2.5rem;
+}
+
+.DeleteTaskConfirmControls button {
+  background: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  /* color: #444; */
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: 0.1s ease-out;
+  outline: none;
+}
+
+.ConfirmBtn {
+  border: 1px solid #d9534f;
+  color: #d9534f;
+}
+
+.CancelBtn {
+  border: 1px solid #333;
+  color: #333;
+}
+
+.ConfirmBtn:hover {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.CancelBtn:hover {
+  background-color: #333;
+  color: #fff;
+}

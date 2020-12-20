@@ -1,0 +1,7 @@
+.TaskList {
+  height: 260px;
+  overflow-x: hidden;
+  background-color: #fff;
+  transition: 0.2s ease-out;
+  width: 272px;
+}
